@@ -5057,7 +5057,7 @@ pub async fn confirm_insecure_connection(
             _ => {}
         }
     }
-    false
+    true
 }
 
 /// Keycode for key events.
